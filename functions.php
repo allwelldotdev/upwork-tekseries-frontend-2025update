@@ -5,18 +5,19 @@ add_action('wp_enqueue_scripts', 'allwell_register_styles');
 
 function allwell_register_styles()
 {
-    $parenthandle = 'divi-parent-theme-style';
+    $parent_theme_handle = 'divi-parent-theme-style';
+    $child_theme_handle = 'divi-child-theme-style';
     $theme = wp_get_theme();
     wp_enqueue_style(
-        $parenthandle,
+        $parent_theme_handle,
         get_template_directory_uri() . '/style.css',
         array(),
         $theme->parent()->get('Version')
     );
     wp_enqueue_style(
-        'divi-child-theme-style',
+        $child_theme_handle,
         get_stylesheet_uri(),
-        array($parenthandle),
+        array($parent_theme_handle),
         /* $theme->get('Version') */ filemtime(get_stylesheet_directory() . '/style.css')
     );
 }
