@@ -46,20 +46,11 @@ body {
 }
 .et_pb_menu--without-logo.al_nav-menu .et_pb_menu__menu>nav>ul>li>a {
   padding-bottom: 0;
-  padding: 12px 17px; /* optional */
-  border-radius: .25rem; /* optional */
+  padding: 10px 15px; /* optional */
+  border-radius: .3125rem; /* optional */
 }
-.et_pb_menu--without-logo.al_nav-menu .et_pb_menu__menu>nav>ul>li>a:hover {
-  /* optional */
-  background-color: #0C275C;
-  color: #fff !important;
-}
-.al_nav-menu .et-menu a, .al_nav-menu .et-menu a:hover {
-  /* optional */
-  transition: all .25s ease;
-  -webkit-transition: all .25s ease;
-}
-.al_nav-menu .et-menu a:hover {
+
+.al_nav-menu .et-menu a {
   opacity: 1;
 }
 /* styling Divi header */
@@ -80,16 +71,10 @@ body {
 }
 /* style header for archive pages on divi */
 .et-db #et-boc .et-l .al_nav-menu.et_pb_menu .et-menu>li {
-  padding-left: 5px;
-  padding-right: 5px;
+  padding-inline: 2.5px;
 }
 .et-db #et-boc .et-l .al_nav-menu.et_pb_menu_0_tb_header.et_pb_menu ul li a {
   color: #0C275C !important;
-  transition: all .25s ease;
-  -webkit-transition: all .25s ease;
-}
-.et-db #et-boc .et-l .al_nav-menu.et_pb_menu_0_tb_header.et_pb_menu ul li a:hover {
-  color: #fff !important;
 }
 /* end - reboot menu style in Divi header */
 
