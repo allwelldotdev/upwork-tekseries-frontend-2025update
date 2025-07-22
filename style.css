@@ -315,18 +315,26 @@ body {
 
 /* styling post grid pagination on blog page */
 .al_post-grid.difl_postgrid .pagination .page-numbers {
-  padding: 7px 14px;
+  padding: 5px 14px;
   border-radius: .25rem;
-  background-color: #81BAE0;
+  font-weight: 500;
 }
-.al_post-grid.difl_postgrid .pagination .page-numbers.current,
+.al_post-grid.difl_postgrid .pagination .page-numbers.current {
+  background-color: #D4EDFF;
+}
 .al_post-grid.difl_postgrid .pagination .page-numbers.next,
 .al_post-grid.difl_postgrid .pagination .page-numbers.prev {
-  background-color: #0C275C;
+  position: relative;
+  text-indent: -7px;
+}
+.al_post-grid.difl_postgrid .pagination .page-numbers.prev {
+  text-indent: 7px;
+  margin-right: unset;
 }
 .al_post-grid.difl_postgrid .pagination .page-numbers.next:after,
 .al_post-grid.difl_postgrid .pagination .page-numbers.prev:before {
-  vertical-align: -.1em;
+  vertical-align: -.05em;
+  transform: scale(2);
 }
 
 /* bolding header text in title banner on archive pages */
