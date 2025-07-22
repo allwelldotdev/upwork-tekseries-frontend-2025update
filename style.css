@@ -103,12 +103,12 @@ body {
     font-size: .75rem;
     font-weight: 400;
     line-height: 1.25;
-    color: #fff;
+    color: #0C275C;
   }
   .footer-copyright a {
     text-decoration: none;
     font-weight: 600;
-    color: #fff;
+    color: #0C275C;
   }
   .footer-copyright a:hover {
     text-decoration: underline dotted;
@@ -126,11 +126,14 @@ body {
   align-items: center;
   gap: 60px;
 }
-.al_sm-icons-wrapper div img {
+.al_sm-icons-wrapper .al_sm-icon {
+  width: 40px;
   height: 40px;
+  fill: #0C275C;
 }
 @media only screen and (max-width: 767px) {
-  .al_sm-icons-wrapper div img {
+  .al_sm-icons-wrapper .al_sm-icon {
+    width: 35px;
     height: 35px;
   }
 }
