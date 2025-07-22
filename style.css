@@ -314,12 +314,14 @@ body {
 }
 
 /* styling post grid pagination on blog page */
-.al_post-grid.difl_postgrid .pagination .page-numbers {
+.al_post-grid.difl_postgrid .pagination .page-numbers,
+.al_events-cpt-grid.difl_cptgrid .pagination .page-numbers {
   padding: 5px 14px;
   border-radius: .25rem;
   font-weight: 500;
 }
-.al_post-grid.difl_postgrid .pagination .page-numbers.current {
+.al_post-grid.difl_postgrid .pagination .page-numbers.current,
+.al_events-cpt-grid.difl_cptgrid .pagination .page-numbers.current {
   background-color: #D4EDFF;
 }
 .al_post-grid.difl_postgrid .pagination .page-numbers.next,
@@ -332,12 +334,15 @@ body {
   margin-right: unset;
 }
 .al_post-grid.difl_postgrid .pagination .page-numbers.next:after,
-.al_post-grid.difl_postgrid .pagination .page-numbers.prev:before {
+.al_post-grid.difl_postgrid .pagination .page-numbers.prev:before,
+.al_events-cpt-grid.difl_cptgrid .pagination .page-numbers.next:after,
+.al_events-cpt-grid.difl_cptgrid .pagination .page-numbers.prev:before {
   vertical-align: -.05em;
   transform: scale(2);
 }
 
 /* bolding header text in title banner on archive pages */
+.al_title-banner div.et_pb_text_inner,
 .al_title-banner div.et_pb_text_inner h1 {
   font-weight: 500;
 }
