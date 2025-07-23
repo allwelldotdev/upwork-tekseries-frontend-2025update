@@ -350,9 +350,8 @@ body {
 /* styling contact icon text in contact page */
 .al_contact-icon-flex {
   display: flex;
-}
-.al_contact-icon-wrapper {
-  width: 40px;
+  flex-direction: column;
+  gap: 20px;
 }
 .al_contact-icon-text h3, .al_contact-icon-text p {
   margin: 0;
@@ -360,8 +359,9 @@ body {
 .al_contact-icon-text p,
 .al_contact-icon-text a {
   color: #0C275C;
-  font-size: 1.125rem;
-  line-height: 1.5;
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.35;
   padding-bottom: unset;
 }
 @media only screen and (max-width: 767px) {
@@ -374,22 +374,18 @@ body {
   text-decoration: none;
   display: block;
 }
-.al_contact-icon-text {
-  margin-left: .625rem;
-}
 
 /* styling fluent form */
 .al_ff-submit-btn button[type="submit"] {
-  padding: 10px 30px;
+  padding: 10px 20px;
   border-width: 0px;
-  border-radius: 0.25rem;
+  border-radius: 0.3125rem;
   font-size: 1rem;
   font-weight: 700;
-  background-color: #0c275c !important;
+  background-color: #187AC0 !important;
 }
 .al_ff-submit-btn button[type="submit"]:hover {
-  color: #0C275C !important;
-  background-color: rgba(12, 39, 92, .2) !important;
+  opacity: 1 !important;
 }
 .fluentform .ff-el-group:last-child {
   margin-bottom: unset;
