@@ -366,30 +366,6 @@ body {
   }
 }
 
-/* 8<------ START: OUTDATED STYLING 8<------ */
-
-/* styling exosystem indicators image carousel */
-/* .difl_imagecarousel_0 .df_ic_arrows div,
-.difl_cptcarousel_0 .df_cptc_arrows div,
-.difl_cptcarousel_0_tb_body .df_cptc_arrows div {
-  background-color: #0C275C;
-}
-.difl_imagecarousel_0 .df_ic_arrows div:after {
-  color: #fff;
-}
-.difl_imagecarousel_0 h4 {
-  padding-inline: 5rem;
-} */
-
-/* styling services advanced tab on homepage */
-/* .al_services .df_at_nav_container {
-  gap: 30px;
-}
-.difl_advancedtab.al_services p:not(.has-background):last-of-type {
-  padding-bottom: 0;
-} */
-
-/* 8<------ END: OUTDATED STYLING 8<------ */
 
 /* styling post grid pagination on blog page */
 .al_post-grid.difl_postgrid .pagination .page-numbers,
@@ -888,40 +864,6 @@ body:not(.et-tb) #main-content .container.al_tb {
   transition: all 250ms ease-in-out;
 }
 
-/* 8<------ START: OUTDATED STYLING 8<------ */
-
-/* styling mobile services section */
-/* .al_services-col-head {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  margin-bottom: 20px;
-}
-.al_services-col h4 {
-  font-size: 1.5rem;
-  font-weight: 800;
-  margin-bottom: 0;
-}
-.al_services-col img {
-  width: 50px
-}
-.al_services-col p {
-  font-size: 1.125rem;
-  line-height: 1.7;
-}
-@media (max-width: 576px) {
-  .al_services-col h4 {
-    font-size: 1.4rem;
-  }
-  .al_services-col p {
-    font-size: 1rem;
-  }
-  .al_services-col-head {
-    margin-bottom: 10px;
-  }
-} */
-
-/* 8<------ END: OUTDATED STYLING 8<------ */
 
 /* styling job dashboard section */
 .al_job-db #job-manager-job-dashboard {
